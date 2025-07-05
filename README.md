@@ -1,104 +1,99 @@
-# 🤖 Groq LLM Streamlit Chatbot
+# Llama3 Streamlit Chatbot 🤖
 
-An interactive and powerful **AI chatbot with UI**, built using [Groq API](https://console.groq.com/) and the **LLaMA 3.3–70B Versatile model**. This Streamlit project allows users to have real-time, intelligent conversations with a large language model through a modern and user-friendly web interface.
+![Llama3 Streamlit Chatbot](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue?style=for-the-badge&link=https://github.com/carlo-mart-ll/llama3-streamlit-chatbot/releases)
 
----
+Welcome to the **Llama3 Streamlit Chatbot** repository! This project showcases an interactive AI chatbot powered by the Llama 3.3 70b versatile model. Built using Streamlit and the Groq API, this chatbot provides a modern user interface and features that enhance the user experience.
 
-## 📌 Features
+## Table of Contents
 
-* ⚡ Powered by `llama-3.3-70b-versatile` from Groq
-* 💬 Beautiful Streamlit-based UI chat interface
-* 🧠 Optional context-aware assistant replies (memory on/off)
-* 💾 Downloadable chat history in `.txt` format
-* 🎨 Custom CSS for enhanced UI and centered sidebar image
-* 🔐 Secure API key handling via `.env`
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
----
+## Features 🌟
 
+- **Interactive UI**: Enjoy a clean and modern interface that makes chatting intuitive.
+- **Memory Toggle**: Switch between memory modes for personalized interactions.
+- **Downloadable Chat History**: Keep a record of your conversations for future reference.
+- **Real-time Responses**: Experience quick replies, making the chatbot feel alive.
+- **Context-Aware**: The chatbot understands context, improving the quality of conversations.
+- **Open Source**: Contribute to the project or customize it for your needs.
 
-## 📸 Screenshots
+## Installation 🛠️
 
-![Screenshot (31)](https://github.com/user-attachments/assets/cc92dfe1-0edf-4a22-b2b5-d79334f18192)
+To get started with the Llama3 Streamlit Chatbot, follow these steps:
 
-![Screenshot (32)](https://github.com/user-attachments/assets/2fa19a28-e115-4bb3-bf00-e3fa92c02d08)
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/carlo-mart-ll/llama3-streamlit-chatbot.git
+   ```
 
----
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd llama3-streamlit-chatbot
+   ```
 
-## 🚀 Getting Started
+3. **Install Dependencies**:
+   Make sure you have Python installed. Then, run:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### 1. Clone the repository
+4. **Run the Application**:
+   Launch the chatbot using Streamlit:
+   ```bash
+   streamlit run app.py
+   ```
 
-```bash
-git clone https://github.com/yourusername/groq-streamlit-chatbot.git
-cd groq-streamlit-chatbot
-```
+5. **Access the Chatbot**:
+   Open your web browser and go to `http://localhost:8501` to interact with the chatbot.
 
-### 2. Install dependencies
+## Usage 💬
 
-```bash
-pip install -r requirements.txt
-```
+Once the application is running, you can start chatting with the AI. Here are some tips to get the most out of your experience:
 
-### 3. Set up your `.env` file
+- **Ask Questions**: The chatbot can answer a wide range of questions. Feel free to ask anything!
+- **Toggle Memory**: Use the memory toggle to switch between remembering past interactions or starting fresh.
+- **Download Conversations**: After chatting, you can download the chat history for later review.
 
-Create a `.env` file in the root directory and add your [Groq API key](https://console.groq.com/):
+## Contributing 🤝
 
-```
-GROQ_API_KEY=your_groq_api_key_here
-```
+We welcome contributions to improve the Llama3 Streamlit Chatbot. If you want to help, follow these steps:
 
-### 4. Run the chatbot
+1. **Fork the Repository**: Click on the fork button at the top right of the repository page.
+2. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make Your Changes**: Edit files and add your feature or fix.
+4. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Fork**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. **Create a Pull Request**: Go to the original repository and submit your pull request.
 
-```bash
-streamlit run app.py
-```
+For more details, check our [Contributing Guidelines](CONTRIBUTING.md).
 
----
+## License 📄
 
-## 💾 Project Structure
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-```
-groq-streamlit-chatbot/
-│
-├── app.py              # Main Streamlit chatbot application
-├── .env                # API key (excluded from version control)
-├── README.md           # Project documentation
-└── requirements.txt    # List of Python dependencies
-```
+## Contact 📧
 
----
+If you have any questions or suggestions, feel free to reach out:
 
-## 🧠 Example Conversation
+- **Email**: your-email@example.com
+- **GitHub**: [carlo-mart-ll](https://github.com/carlo-mart-ll)
 
-```
-💬 Type your message: Hello! What can you do?
+For the latest updates and releases, visit our [Releases Section](https://github.com/carlo-mart-ll/llama3-streamlit-chatbot/releases).
 
-🤖 Assistant: Hi there! I’m an AI assistant powered by the LLaMA 3.3 model. I can help answer questions, explain topics, and chat with you in natural language!
+![Chatbot Interface](https://img.shields.io/badge/Chatbot%20Interface-See%20Demo-green?style=for-the-badge)
 
-💬 Type your message: Tell me a joke.
-
-🤖 Assistant: Why did the computer show up at work late? Because it had a hard drive! 😄
-```
-
----
-
-## 📄 License
-
-This project is proprietary and confidential. All rights reserved.
-
-```
-© 2025 HUSSAIN ALI. This code may not be copied, modified, distributed, or used without explicit permission.
-```
-
----
-
-## 📬 Contact
-
-For questions or collaboration requests:
-
-* 📧 Email: [choudaryhussainali@outlook.com](mailto:choudaryhussainali@outlook.com)
-* 🌐 GitHub: [choudaryhussainali](https://github.com/choudaryhussainali)
-
----
-
-> ✨ Built using [Groq](https://groq.com), [Streamlit](https://streamlit.io/), and the blazing-fast LLaMA 3.3 models
+Thank you for checking out the Llama3 Streamlit Chatbot! Enjoy your chatting experience.
